@@ -5,4 +5,4 @@ Write a function called `reverse_list` which takes a list as an argument. Withou
 ## Whiteboard Process
 ![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/array-reverse/code-challenge/array-reverse/white.PNG)
 ## Approach & Efficiency
-In solution to this challenge we used array methods pop() and insert().
+In solution to this challenge we used loop function.
