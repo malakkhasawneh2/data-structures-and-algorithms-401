@@ -8,9 +8,6 @@ def test_version():
 
 
 
-def test_version():
-    assert __version__ == '0.1.0'
-
 
 def test_empty_list():
     newlist = LinkedList()
@@ -41,6 +38,41 @@ def test_is_not_includes(newlist):
     expected = False
     actual = newlist.includes(10)
     assert expected == actual
+
+
+
+
+
+
+
+def test_add_to_tail(newlist):
+    newlist = LinkedList()
+    newlist.append(88)
+    newlist.append(20)
+    expected ='{ 88 } -> { 20 } -> NULL'
+    actual = newlist.__str__()
+    assert expected == actual
+
+def test_insert_before(newlist):
+    newlist.insert_before(5,200)
+    expected ='{ Hi } -> { 200 } -> { 5 } -> NULL'
+    actual = newlist.__str__()
+    assert expected == actual
+
+def test_insert_after(newlist):
+    newlist.append('World')
+    newlist.insert_after(5,700)
+    expected ='{ Hi } -> { 5 } -> { 700 } -> { World } -> NULL'
+    actual = newlist.__str__()
+    assert expected == actual
+
+
+
+
+
+
+
+
 
 @pytest.fixture
 def newlist():
