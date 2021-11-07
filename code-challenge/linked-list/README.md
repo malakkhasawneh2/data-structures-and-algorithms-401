@@ -23,7 +23,58 @@ for the __str__() it is also big O(N) because I also used a while loop in my sol
 
 
 
+_________________________________________
+_________________________________________
+_________________________________________
+
+# linked-list-insertions
+
+## Author: Malak khasawneh
+## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/6
 
 
+# Challenge Summary
+* Write methods for the Linked List class:
 
+* append
+  * arguments: new value
+  * adds a new node with the given value to the end of the list
+* insert before
+  * arguments: value, new value
+  * adds a new node with the given new value immediately before the first node that has the value specified
+* insert after
+  * arguments: value, new value
+  * adds a new node with the given new value immediately after the first node that has the value specified
+## Whiteboard Process
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/3.PNG)
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/2.PNG)
+
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/1.PNG)
+
+
+## Approach & Efficiency
+* Efficiency of the Big O time is O(n)
+## Solution
+append function
+  * adds a new node with the given value to the end of the list
+
+insert Before
+  * adds a new node with the given new value immediately before the first node that has the value specified
+
+insert After
+  * adds a new node with the given new value immediately after the first node that has the value specified
+
+### checklist
+ - [x] Top-level README “Table of Contents” is updated
+ - [x] README for this challenge is complete
+       - [x] Summary, Description, Approach & Efficiency, Solution
+       - [x] Picture of whiteboard
+       - [x] Link to code
+ - [x] Feature tasks for this challenge are completed
+ - [x] Unit tests written and passing
+       - [x] “Happy Path” - Expected outcome
+       - [x] Expected failure
+       - [x] Edge Case (if applicable/obvious)
 
