@@ -30,7 +30,7 @@ _________________________________________
 # linked-list-insertions
 
 ## Author: Malak khasawneh
-## pr : 
+## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/6
 
 
 # Challenge Summary
@@ -46,7 +46,13 @@ _________________________________________
   * arguments: value, new value
   * adds a new node with the given new value immediately after the first node that has the value specified
 ## Whiteboard Process
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/3.PNG)
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/2.PNG)
+
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-insertions/code-challenge/linked-list/1.PNG)
+
 
 ## Approach & Efficiency
 * Efficiency of the Big O time is O(n)
