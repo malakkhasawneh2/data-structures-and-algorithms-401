@@ -94,13 +94,14 @@ _________________________________________
 # linked-list-kth - Code Challenge 7
 
 ## Author: Malak khasawneh
-## pr : 
+
+## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/8
 
 
 # Challenge Summary
 * Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.## Whiteboard Process
 
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-kth/code-challenge/linked-list/7.PNG)
 
 
 ## Approach & Efficiency
