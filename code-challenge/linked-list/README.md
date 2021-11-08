@@ -1,5 +1,5 @@
 
-# Singly Linked Lists
+# Singly Linked Lists - Code Challenge 5
 Linked List is a linear data structure.
 It is a series of connected "nodes" that contains the "address" of the next node. Each node can store a data point which may be a number, a string or any other type of data.
 
@@ -36,7 +36,7 @@ _________________________________________
 _________________________________________
 _________________________________________
 
-# linked-list-insertions
+# linked-list-insertions - Code Challenge 6
 
 ## Author: Malak khasawneh
 ## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/6
@@ -87,3 +87,31 @@ insert After
        - [x] Expected failure
        - [x] Edge Case (if applicable/obvious)
 
+_________________________________________
+_________________________________________
+_________________________________________
+
+# linked-list-kth - Code Challenge 7
+
+## Author: Malak khasawneh
+## pr : 
+
+
+# Challenge Summary
+* Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.## Whiteboard Process
+
+![Whiteboard Solution]()
+
+
+## Approach & Efficiency
+* for the .length_() function time big O(n) space big O(1) for the .kth_from_end() function time big O(n) space big O(1)
+
+## Solution
+* kth from end
+  * argument: a number, k, as a parameter.
+  * Return the node’s value that is k places from the tail of the linked list.
+  * You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+## API
+* .length_(self) - method to find the lenght of the linked list
+* .kth_from_end(self, k) - method to find k-th value from the end of the linked list. In our implementation K can be positive or negative and list can be empty

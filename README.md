@@ -4,5 +4,5 @@
 2. [Class 2 - Array Insert Shift](code-challenge/array-insert-shift)
 3. [Class 3 - Array Binary Search](code-challenge/array-binary-search)
 
-4. [Class 5 - linked-list](code-challenge/linked-list)
+4. [Class 5 & 6 & 7 - linked-list](code-challenge/linked-list)
 
