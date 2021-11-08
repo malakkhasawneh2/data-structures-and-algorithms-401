@@ -74,6 +74,33 @@ class LinkedList():
 
 
 
+    def kth_from_end(self, k):
+            current = self.head
+            list_length = 0
+            while current is not None:
+                current = current.next
+                list_length += 1
+            current = self.head
+
+            if k > list_length:
+                return ('not in the range')
+
+            if k < 0:
+                return ('negative value not allowed')
+
+
+            current = self.head
+            for i in range(0, list_length - k -1):
+                current = current.next
+
+
+            print(current.data)
+            return(current.data)
+
+
+
+
+
     def __str__(self):
         result =""
         if self.head is None:
@@ -88,6 +115,11 @@ class LinkedList():
         
 
 
+
+
+
+
+
 if __name__ == "__main__":
     newlist = LinkedList()
     newlist.insert(5)
@@ -95,5 +127,6 @@ if __name__ == "__main__":
     newlist.append(88)
     newlist.insert_before(5,200)
     newlist.insert_after(200,84)
+    newlist.kthFromEnd(4)
     print(newlist.__str__())
 
