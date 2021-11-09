@@ -125,12 +125,12 @@ _________________________________________
 
 ## Author: Malak khasawneh
 
-## pr : 
+## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/9
 
 # Challenge Summary
 * Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
 
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-zip/code-challenge/linked-list/8.PNG)
 
 
 ## Approach & Efficiency
