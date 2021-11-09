@@ -105,6 +105,33 @@ def test_happy_bath_test_k_is_not_at_end():
     assert expected == actual
 
 
+def test_zip_merge():
+    newlist = LinkedList()
+    newlist2 = LinkedList()
+
+    newlist.insert(5)
+    newlist.insert(2)
+    newlist.insert(6)
+    newlist.insert(4)
+
+    newlist2.insert(50)
+    newlist2.insert(20)
+    newlist2.insert(60)
+    newlist2.insert(40)
+    newlist.zip_list(newlist,newlist2)
+
+    actual =newlist.__str__()
+    expected ='{ 4 } -> { 40 } -> { 6 } -> { 60 } -> { 2 } -> { 20 } -> { 5 } -> { 50 } -> NULL'
+    assert actual == expected
+
+def test_zip_none():
+    newlist = LinkedList()
+    newlist2 = LinkedList()
+
+    newlist.zip_list(newlist,newlist2)
+    actual =newlist.__str__()
+    expected = None
+    assert actual == expected
 
 
 
