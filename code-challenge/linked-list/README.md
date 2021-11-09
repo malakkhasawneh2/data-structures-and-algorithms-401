@@ -116,3 +116,23 @@ _________________________________________
 ## API
 * .length_(self) - method to find the lenght of the linked list
 * .kth_from_end(self, k) - method to find k-th value from the end of the linked list. In our implementation K can be positive or negative and list can be empty
+
+_________________________________________
+_________________________________________
+_________________________________________
+
+# linked-list-zip - Code Challenge 8
+
+## Author: Malak khasawneh
+
+## pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/9
+
+# Challenge Summary
+* Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). 
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/linked-list-zip/code-challenge/linked-list/8.PNG)
+
+
+## Approach & Efficiency
+* merge_list(list1, list2) function space Big O(1), time Big O(n) To solve this challenge I've used a series of is statemnts to check if the any of the lists are empty, and return appropriate head pointer If both lists content at least one element I've created a temp variable which stores next argument of the head node of the second list. This was made to preserve second list node connections from being lost during nodes transition nodes to the first list. Then I am using a while loop that runs only until there is equal amount of elements in both lists and the current element of each list don't point to the None. In this whie loop I am reassigning nodes from different list to each other using Python swapping functionality.
+

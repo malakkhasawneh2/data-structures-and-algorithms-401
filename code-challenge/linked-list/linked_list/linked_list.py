@@ -98,6 +98,23 @@ class LinkedList():
             return(current.data)
 
 
+    def zip_list(self,newlist1, newlist2):
+            curr1 = newlist1.head
+            curr2 = newlist2.head
+
+            if curr1 == None and curr2 == None:
+                   return None
+
+            while curr1 != None and curr2 != None:
+                    newlist1_next = curr1.next
+                    newlist2_next = curr2.next
+                    curr2.next = newlist1_next  
+                    curr1.next = curr2 
+                    curr1 = newlist1_next
+                    curr2 = newlist2_next
+                    newlist2_next.head = curr2
+
+
 
 
 
