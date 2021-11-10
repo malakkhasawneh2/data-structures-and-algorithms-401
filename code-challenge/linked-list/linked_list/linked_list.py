@@ -102,20 +102,39 @@ class LinkedList():
             curr1 = newlist1.head
             curr2 = newlist2.head
 
-            if curr1 == None and curr2 == None:
-                   return None
+            if curr1 == None :
+                   print ("list1 is empty")
+                   return (newlist2)
+            if curr2 == None :
+                   print ("list2 is empty")
+                   return (newlist1)
 
             while curr1 != None and curr2 != None:
-                    newlist1_next = curr1.next
-                    newlist2_next = curr2.next
-                    curr2.next = newlist1_next  
-                    curr1.next = curr2 
-                    curr1 = newlist1_next
-                    curr2 = newlist2_next
-                    newlist2_next.head = curr2
+                
+                curr1_next = curr1.next
+                curr2_next = curr2.next
+                curr1.next = curr2
+                curr2.next = curr1_next
+                curr1 = curr1_next
+                curr2 = curr2_next
+                if curr1.next == None:
+                    break
+            if curr1:
+                curr1.next = curr2
 
 
 
+    def includes(self, valueSearch):
+        current = self.head
+        if self.head!=None:
+            while current.next != None:
+                if current.data == valueSearch:
+                    return True
+
+                current = current.next
+            return False
+        else:
+            return ("Empty")
 
 
     def __str__(self):
@@ -147,3 +166,6 @@ if __name__ == "__main__":
     newlist.kthFromEnd(4)
     print(newlist.__str__())
 
+    newlist.zip_list(newlist)
+    print(newlist)
+    newlist.includes(100)
