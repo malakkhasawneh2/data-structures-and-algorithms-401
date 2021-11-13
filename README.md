@@ -6,3 +6,4 @@
 
 4. [Class 5 & 6 & 7 & 8 - linked-list](code-challenge/linked-list)
 
+5. [Class 9 - stack-and-queue](code-challenge/stack-and-queue)
