@@ -7,3 +7,8 @@
 4. [Class 5 & 6 & 7 & 8 - linked-list](code-challenge/linked-list)
 
 5. [Class 9 - stack-and-queue](code-challenge/stack-and-queue)
+7. [Class 11 - stack-queue-pseudo](code-challenge/stack-queue-pseudo)
+ readme file: (https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-pseudo/code-challenge/stack-queue-pseudo/README.md)
+
+
+  

@@ -6,7 +6,9 @@
 
 ## Whiteboard Process
 
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-pseudo/code-challenge/stack-queue-pseudo/d.PNG)
+
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-pseudo/code-challenge/stack-queue-pseudo/e.PNG)
 
 ## Approach & Efficiency
 * init(self, stack1) - initialization of the PseudoQueue class with the 1 given Stack and 1 empty Stack
@@ -48,3 +50,4 @@ Internal State: </br>
 [5]->[10]->[15]) </br>
 
 ## PR 
+* https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/12
