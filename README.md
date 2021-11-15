@@ -10,5 +10,6 @@
 7. [Class 11 - stack-queue-pseudo](code-challenge/stack-queue-pseudo)
  readme file: (https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-pseudo/code-challenge/stack-queue-pseudo/README.md)
 
+8. [Class 12 - stack-queue-animal-shelter](code-challenge/stack-queue-animal-shelter)
 
   
