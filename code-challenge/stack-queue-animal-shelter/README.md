@@ -1,4 +1,4 @@
-# PR :  
+# PR :  https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/13
 # Challenge Summary
 * Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
 Implement the following methods:
@@ -7,7 +7,7 @@ Implement the following methods:
   * dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return None.
 
 ## Whiteboard Process
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-animal-shelter/code-challenge/stack-queue-animal-shelter/anemal.PNG)
 
 
 ## Approach & Efficiency
