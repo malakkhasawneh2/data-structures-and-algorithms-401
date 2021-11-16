@@ -1,9 +1,9 @@
-# PR :
+# PR : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/14
 
 # Challenge Summary
 writing a function that, when given a string, can determine wither or not brackets are being opened and closed at the proper places. The function returns True or False based on correct bracket usage.
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/stack-queue-brackets/code-challenge/Multi-bracket-Validation/lab13.PNG)
 
 ## Approach & Efficiency
 For this module, the goal was to traverse the string that came into the function as input - for loop was used. Then conditionals were set up to check...

@@ -12,4 +12,6 @@
 
 8. [Class 12 - stack-queue-animal-shelter](code-challenge/stack-queue-animal-shelter)
 
+8. [Class 13 - Multi-bracket-Validation](code-challenge/Multi-bracket-Validation)
+
   
