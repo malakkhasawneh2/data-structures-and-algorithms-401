@@ -1,6 +1,9 @@
 # Trees
 Implementation: Binary Tree and BST Implementation.
 
+# PR : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/15
+
+
 ## Challenge
 Create a Binary Tree class with methods pre_order, in_order and post_order Create a BinarySearchTree class with methods add(value) and contains()
 
