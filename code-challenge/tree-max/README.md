@@ -1,9 +1,13 @@
+ ## PR: https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/16
+ 
 # Challenge Summary
 
 Find_maximum_value : takes the binary tree (it self) as an arguement and returns the highest value contained in the tree. The entire tree is traversed in the process using an iterative level approach. The variable maximum_value is assigned to the current node's value during the traversal only if the value of that node is larger than the maximum_value.
 
 ## Whiteboard Process
-<!-- Embedded whiteboard image -->
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/tree-max/code-challenge/tree-max/16.PNG
+)
+
 
 ## Approach & Efficiency
 
