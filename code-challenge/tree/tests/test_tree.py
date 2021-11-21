@@ -106,3 +106,90 @@ def test_contains_tree_of_ten(binary_search_tree_ten):
     assert binary_search_tree_ten.contains(100) == expected
     assert binary_search_tree_ten.contains(20) == expected
     assert binary_search_tree_ten.contains(60) == False
+
+
+
+
+    ## lab 16
+
+
+def test_find_max_binarytree_empty():
+    tree = BinaryTree()
+    assert tree.find_maximum_value() == None
+
+def test_find_max_binarytree_one_el():
+    tree = BinaryTree()
+    tree.root = _Node(8)
+    assert tree.find_maximum_value() == 8
+
+def test_find_max_binarytree_several_el():
+    tree = BinaryTree()
+    tree.root = _Node(8)
+    tree.root.left = _Node(10)
+    tree.root.right = _Node(-2)
+    assert tree.find_maximum_value() == 10
+    tree.root.left.left = _Node(195)
+    tree.root.left.right = _Node(-195)
+    tree.root.right.right = _Node(10000)
+    tree.root.left.left.left = _Node(-0.567)
+    tree.root.left.left.right = _Node(10000)
+    assert tree.find_maximum_value() == 10000
+
+# def test_find_max_binarytree_same_values():
+#     tree = BinaryTree()
+#     tree.root = _Node(-2)
+#     tree.root.left = _Node(-2)
+#     tree.root.right = _Node(-2)
+#     tree.root.left.left = _Node(-2)
+#     tree.root.left.right = _Node(-2)
+#     tree.root.right.right = _Node(-2)
+#     tree.root.left.left.left = _Node(-2)
+#     tree.root.left.left.right = _Node(-2)
+#     assert tree.find_maximum_value() == -2
+#     tree.root.right.left = _Node(1)
+#     assert tree.find_maximum_value() == 1
+
+def test_find_max__imbalanced_binarytree():
+    tree = BinaryTree()
+    tree.root = _Node(-2)
+    tree.root.left = _Node(5)
+    tree.root.left.left = _Node(9)
+    tree.root.left.left.left = _Node(2)
+    tree.root.left.left.left.left = _Node(2)
+    assert tree.find_maximum_value() == 9
+
+def test_find_max_binarytree_zeros():
+    tree = BinaryTree()
+    tree.root = _Node(-2)
+    tree.root.left = _Node(-4)
+    tree.root.right = _Node(0)
+    assert tree.find_maximum_value() == 0
+
+def test_maximum_value():
+    new_tree = BinarySearchTree()
+    expected = 11
+    new_tree.add(2)
+    new_tree.add(7)
+    new_tree.add(5)
+    new_tree.add(2)
+    new_tree.add(6)
+    new_tree.add(9)
+    new_tree.add(5)
+    new_tree.add(11)
+    new_tree.add(4)
+    assert new_tree.find_maximum_value() == expected
+
+def test_negative_max_value():
+    new_tree = BinarySearchTree()
+    expected = -2
+    new_tree.add(-2)
+    new_tree.add(-3)
+    new_tree.add(-7)
+    new_tree.add(-5)
+    new_tree.add(-2)
+    new_tree.add(-6)
+    new_tree.add(-9)
+    new_tree.add(-5)
+    new_tree.add(-11)
+    new_tree.add(-4)
+    assert new_tree.find_maximum_value() == expected

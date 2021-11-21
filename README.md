@@ -15,5 +15,6 @@
 9. [Class 13 - Multi-bracket-Validation](code-challenge/Multi-bracket-Validation)
 
 10. [Class 15 - Binary Tree and BST Implementation](code-challenge/tree)
+11. [Class 16 - Binary Tree Max](code-challenge/tree-max/README.md)
 
   
