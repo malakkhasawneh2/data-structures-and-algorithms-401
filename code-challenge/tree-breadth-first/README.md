@@ -1,12 +1,12 @@
 ## Breadth-first Traversal.
-## PR: 
+## PR: https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/17
 
 # Challenge Summary
 
 takes the binary tree of nodes (its self) as an arguement and returns a list of the values inside of those nodes; starting from the root and stretching the width of the tree left to right and top to bottom. 
 
 ## Whiteboard Process
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/tree-breadth-first/code-challenge/tree-breadth-first/code17.PNG)
 
 ## Approach & Efficiency
 
