@@ -1,8 +1,10 @@
+# pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/18
+
 # Challenge Summary
 writing a function "fizz_buzz_tree" that takes a binary tree of integers as an arguement and does "FizzBuzz" to the values in the binary tree.
 
 ## Whiteboard Process
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/tree-fizz-buzz/code-challenge/tree-fizz-buzz/18.PNG)
 
 ## Approach & Efficiency
 It was decided that using a helper function was going to be the best way to make these functions readable. Reference to the original BinaryTree object has to be kept during recursive traversal of the binary tree, so a tree parameter is used in the fizz_buzz_tree function. The tree parameter is never mutated during the traversal and value reassignment which is important.
