@@ -18,5 +18,6 @@
 11. [Class 16 - Binary Tree Max](code-challenge/tree-max/README.md)
 12. [Class 17 - tree-breadth-first](code-challenge/tree-breadth-first)
 13. [Class 18 - tree-breadth-first](code-challenge/tree_fizz_buzz)
+14. [Class 26 - Insertion-Sort](code-challenge/Insertion-Sort)
 
   
