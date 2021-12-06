@@ -19,5 +19,6 @@
 12. [Class 17 - tree-breadth-first](code-challenge/tree-breadth-first)
 13. [Class 18 - tree-breadth-first](code-challenge/tree_fizz_buzz)
 14. [Class 26 - Insertion-Sort](code-challenge/Insertion-Sort)
+15. [Class 27 - Merge-Sort](code-challenge/Merge-Sort)
 
   
