@@ -4,8 +4,8 @@ Review the given pseudocode, then trace the algorithm by stepping through the pr
 Once you are done with your article, code a working, tested implementation of Quick Sort based on the pseudocode provided.
 
 ## Whiteboard Process
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/Quick-Sort/code-challenge/quick-sort/lab28a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/Quick-Sort/code-challenge/quick-sort/lab28b.PNG)
 
 ## Approach & Efficiency
 
@@ -28,4 +28,4 @@ before: int_list = [8,4,23,42,16,15]
 $ quick_sort(int_list)
 after: int_list == [4,8,15,16,23,42]
 ```
-[Blog]()
+[Blog](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/Quick-Sort/code-challenge/quick-sort/BLOG.md)
