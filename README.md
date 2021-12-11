@@ -21,5 +21,6 @@
 14. [Class 26 - Insertion-Sort](code-challenge/Insertion-Sort)
 15. [Class 27 - Merge-Sort](code-challenge/Merge-Sort)
 16. [Class 28 - quick-sort](code-challenge/quick-sort)
+17. [Class 29 - hash-table](code-challenge/hash-table)
 
   
