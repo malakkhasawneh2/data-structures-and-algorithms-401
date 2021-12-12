@@ -10,8 +10,8 @@ $ result
 $ 'a'
 ```
 ## Whiteboard Process
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/hashmap-repeated-word/code-challenge/repeated-word/lab31a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/hashmap-repeated-word/code-challenge/repeated-word/lab31b.PNG)
 
 ## Approach & Efficiency
 The approach here is to get an iterable for all of the words in the string. A list is best suited iterable for storing all of the words from the string. Before storing the words, the original string needs to be cleaned up a bit.
