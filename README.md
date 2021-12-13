@@ -23,5 +23,6 @@
 16. [Class 28 - quick-sort](code-challenge/quick-sort)
 17. [Class 29 - hash-table](code-challenge/hash-table)
 18. [Class 30 - repeated_word](code-challenge/repeated_word)
+18. [Class 31 - tree-intersection](code-challenge/tree-intersection)
 
   
