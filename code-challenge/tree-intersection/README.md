@@ -18,7 +18,7 @@ State of a given tree_one:      State of a given tree_two:
 ![Whiteboard Solution]()
 
 ## Approach & Efficiency
-The approach here is to define a helper function that we can use to invoke recursively to traverse all of the nodes in each tree and add their values to a hash table. A hash table is good in this situation because when we need to check each node for IF that node is already in a collection... a hash table has O(1) time complexity to check. As apposed another O(n) implication with a list.
+a hash table has O(1) time complexity to check. As apposed another O(n) implication with a list.
 
 We are passing a boolean into the tree_intersection recursive helper function that tells it when to check a conditional. After all of the nodes in tree one are checked and their values are added to our hash table, then we pass in True. True gets passed throughout the recursive traversal and checks if the node values are included in the hash table.
 
