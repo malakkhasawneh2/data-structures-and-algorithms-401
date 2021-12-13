@@ -14,8 +14,9 @@ State of a given tree_one:      State of a given tree_two:
 ```
 ```Output: [100,160,125,175,200,350,500]```
 ## Whiteboard Process
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+### i explane the big o in Approach & Efficiency
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/tree-intersection/code-challenge/tree-intersection/lab32a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/tree-intersection/code-challenge/tree-intersection/labb32.PNG)
 
 ## Approach & Efficiency
 a hash table has O(1) time complexity to check. As apposed another O(n) implication with a list.
