@@ -17,8 +17,8 @@ Iterate through the entire 1st hash table (the left table) and when an element i
 
 # Whiteboard:
 
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/hashmap-left-join/code-challenge/left-join/lab33a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/hashmap-left-join/code-challenge/left-join/lab33b.PNG)
 
 ## Approach & Efficiency
 
