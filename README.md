@@ -24,5 +24,6 @@
 17. [Class 29 - hash-table](code-challenge/hash-table)
 18. [Class 30 - repeated_word](code-challenge/repeated_word)
 18. [Class 31 - tree-intersection](code-challenge/tree-intersection)
+18. [Class 32 - left-join](code-challenge/left-join)
 
   
