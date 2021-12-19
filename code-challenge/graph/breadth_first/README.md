@@ -1,11 +1,11 @@
 # Graph (Breadth_First Traversal)
-
+### pr : https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/27
 # Challenge Summary
 In this module, we are adding a traversal method to the Graph class created above this module. As the name states, this is a breadth first traversal method. 
 
 ## Whiteboard Process
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-breadth-first/code-challenge/graph/breadth_first/labbb1.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-breadth-first/code-challenge/graph/breadth_first/labbb2.PNG)
 
 ## Approach & Efficiency
 
