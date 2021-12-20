@@ -1,3 +1,5 @@
+# pr: https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/pull/28
+
 # Challenge Summary
 In this module, we are creating a function that checks if there is an businessTrip or series of consecutive businessTrips that exists between a list of nodes (represented by their values).
 
@@ -6,8 +8,8 @@ If there is no such 'businessTrip', we will return 'False : $0'.
 If there is such an 'businessTrip', we will return 'True : $[cost]'
 
 ## Whiteboard Process
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-business-trip/code-challenge/graph/businessTrip/37a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-business-trip/code-challenge/graph/businessTrip/37b.PNG)
 
 ## Approach & Efficiency
 Function, businessTrip, takes a graph and list of values as arguements. Determines if there are nodes in the graph with those values from the list. Determines if there are edges between adjacent nodes from the value_list. Returns True or False if there are edges between every node in the list - start to finish AND the cost of traversing those edges.
