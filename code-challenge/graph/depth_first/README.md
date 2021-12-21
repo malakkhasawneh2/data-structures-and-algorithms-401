@@ -21,6 +21,6 @@ In this module we are taking advantage of the way using a function recursively u
 For time and space this algorithm is O(N). We are creating a list of all nodes that were traversed (N) and we are calling the recurse_traverse function for each unvisited node (N nodes). 
 
 ## Solution
-![Whiteboard Solution]()
-![Whiteboard Solution]()
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-depth-first/code-challenge/graph/depth_first/38a.PNG)
+![Whiteboard Solution](https://github.com/malakkhasawneh2/data-structures-and-algorithms-401/blob/graph-depth-first/code-challenge/graph/depth_first/38b.PNG)
 
